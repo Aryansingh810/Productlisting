@@ -10,8 +10,9 @@ Modern full-stack app to list products, filter/search them, and allow admins to 
 ## Prerequisites
 
 1. Node.js (16+ recommended)
-2. MongoDB running locally
-   - Default connection in `.env`: `mongodb://127.0.0.1:27017/producthu`
+2. MongoDB running on Atlas
+   -Database Deployed
+ 
 
 ## Project Setup
 
