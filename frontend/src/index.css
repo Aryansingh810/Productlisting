@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+}
+
+/* Prevent layout shift while images load */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+

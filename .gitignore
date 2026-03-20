@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# Environment files (keep only *.example)
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+!**/.env.example
+!**/.env.example.*
+
+# Backend uploads (user-generated content)
+backend/uploads/
+
